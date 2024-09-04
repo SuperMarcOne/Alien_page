@@ -1,0 +1,170 @@
+/* base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(/assets/img/fondos/space-9.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* layout */
+header h1 {
+  color: whitesmoke;
+  text-shadow: 2px 2px px2 blue;
+}
+
+header h1 span {
+  color: white;
+  text-shadow: 2px 2px 2px lightblue;
+  border-radius: 5px;
+  background: none;
+}
+
+/* bootstrap */
+.barra-nav a {
+  color: green !important;
+}
+
+.inicio-1 {
+  color: green !important;
+  font-weight: bold !important;
+  font-size: 2.2rem !important;
+}
+
+.nav-item {
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+/* aplicando hover */
+.nav-item:hover {
+  background-color: #eee;
+  border-radius: 1rem;
+}
+
+main h2 {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  color: white;
+  text-decoration: underline red;
+  text-shadow: 3px 3px 0 green;
+  border-color: lightblue;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+main .presentacion {
+  display: flex;
+  margin: 1rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  text-align: justify;
+  font-weight: 600;
+  color: white;
+  text-shadow: 2px 2px 0 green;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+main h3 {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  color: white;
+  text-decoration: underline red;
+  text-shadow: 3px 3px 0 green;
+  border-color: lightblue;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+main .portada {
+  height: 20rem;
+  width: 15rem;
+  margin: 2rem;
+  border-radius: 1rem;
+}
+main .compra {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+/* transiciones y transformaciones */
+.portada:hover {
+  transition: 3s;
+  transform: scale(1, 1.1);
+  cursor: pointer;
+}
+
+main .descripcion {
+  font-weight: bold;
+  text-align: justify;
+  margin: 1rem;
+  color: white;
+  text-shadow: 2px 2px 0 green;
+}
+
+footer {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  /* animaciones */
+  animation-name: cambio_fondo;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 10s;
+  animation-delay: 5s;
+}
+
+/* components */
+.imagen-1 {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.imagen-1 img {
+  width: 62.5rem;
+  border-radius: 1rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.imagen-2 {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.imagen-2 img {
+  width: 62.5rem;
+  border-radius: 1rem;
+  max-width: 40%;
+  height: auto;
+}
+
+.imagen-compra-1 {
+  border-radius: 1rem;
+  width: 32.5rem;
+  max-width: 100%;
+  height: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+/* utilities */
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  font-weight: bolder;
+  color: white;
+}
+
+h1 span:hover {
+  color: blue;
+  transition: 4s;
+  transform: scale(1.3, 0);
+}
+
+/*# sourceMappingURL=style.css.map */

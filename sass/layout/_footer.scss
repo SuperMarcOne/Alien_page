@@ -1,0 +1,14 @@
+@import "../utilities/variables";
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+
+    /* animaciones */
+    animation-name: cambio_fondo;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 10s;
+    animation-delay: 5s;
+}
