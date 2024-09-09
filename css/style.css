@@ -3,10 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url(../../assets/img/fondos/space-9.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center center;
+  background: #000000 url(../assets/img/fondos/space-9.jpg) no-repeat fixed center center;
   background-size: cover;
 }
 
@@ -37,6 +34,10 @@ header h1 span {
 .nav-item {
   font-weight: 800;
   font-size: 2rem;
+}
+
+button .navbar-toggler {
+  background-color: green;
 }
 
 /* aplicando hover */
