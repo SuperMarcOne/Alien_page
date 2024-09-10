@@ -4,9 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url(../../assets/img/fondos/space-9.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
+    background:rgba($color: #e72424, $alpha: 0.5) url(../../assets/img/fondos/space-9.jpg) no-repeat fixed center center;
     background-size: cover;
 }
